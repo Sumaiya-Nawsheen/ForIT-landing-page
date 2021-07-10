@@ -1,0 +1,18 @@
+
+@media (max-width: 320px) { 
+    .logoSize{
+        width: 195px;
+    }
+ }
+
+ .navbar{
+    background-image: url('../../images/rsz_1group-28.png');
+    width: 100%;
+    transition: 0.2s ease,
+ }
+
+ .navbar.active{
+     background: #24a0ed ;
+     transform: translateY(-10px),
+ }
+

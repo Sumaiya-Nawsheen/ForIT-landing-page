@@ -1,0 +1,24 @@
+
+
+.parallax {
+    /* The image used */
+    background-image: url('../../images/Artboard.png');
+  
+    /* Full height */
+    min-height: 100px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+    .mobileDisplay{
+      display: none;
+  }
+  }
