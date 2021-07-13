@@ -20,24 +20,23 @@ export default function MainFeatures() {
 
   const titleStyle={
     fontFamily: 'Noto Serif JP, serif',
-    background:'rgba(255, 255, 255, 0.0)',
   }
 
 
 
 
     return (
-        <div className='h-lg-100 h-sm-100' style={{ background:'rgba(255, 255, 255, 0.0)'}}>
+        <div className='h-lg-100 h-sm-100'>
 
-<div className='parallax'></div>
+<div className='parallax'>
 
 {/* title & description */}
 
-<div style={{ height:'1000px'}}  >
-<div className="row" style={{textAlign:'center',  marginTop:'100px'}}>
+<div className='h-lg-5156 h-sm-100'> 
+<div className="row mr-0 ml-0" style={{textAlign:'center',  marginTop:'100px'}}>
   <div className="col-md-6 offset-md-3"><h1 style={titleStyle}>Main Features</h1></div>
 </div>
-<div className="row" style={{textAlign:'center',  marginTop:'1em'}}>
+<div className="row mr-0 ml-0" style={{textAlign:'center',  marginTop:'1em'}}>
   <div className="col-md-4 offset-md-4"><p style={{fontSize:'18px', color:'grey'}}>Blue Bottle Vice fanny pack, Williamsburg roof party Wes Anderson seitan brunch before they sold out tofu scenester small batch.</p>
   </div>
 </div>
@@ -45,10 +44,10 @@ export default function MainFeatures() {
 {/* features & image */}
 
             <div style={{marginTop:'100px'}}>
-  <div className="row ml-lg-5 ml-1">
+  <div className="row ml-1">
 
 {/* 1st column */}
-    <div className="col-lg-4 col-md-5 col-sm-12 ml-sm-1 ml-lg-3" >
+    <div className="col-lg-4 col-md-4 col-sm-12 ml-sm-1 ml-lg-3" >
     
   <div className="row row-cols-1 row-cols-lg-1">
     <div className="col">
@@ -116,7 +115,7 @@ export default function MainFeatures() {
 
 
 {/* 3rd column */}
-    <div className="col-lg-4 col-md-5 col-sm-12">
+    <div className="col-lg-4 col-md-4 col-sm-12">
     <div className="container">
   <div className="row row-cols-1 row-cols-lg-1">
     <div className="col">
@@ -175,9 +174,7 @@ export default function MainFeatures() {
   </div>
 </div>
 </div>
-
-
-<div class="parallax"></div>
+</div>
         </div>
     )
 }

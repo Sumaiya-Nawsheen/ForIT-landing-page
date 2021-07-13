@@ -28,8 +28,8 @@ const style = {
 
     return (
       <>
-      <div className='banner' style={{height:'1.75em'}} ></div>
-      <div className='sticky-top' style={{height:'4.5em'}}>
+      <div className='banner1' style={{height:'1.75em'}} ></div>
+      <div className='sticky-top smallNav' style={{height:'4.5em'}}>
     <Navbar  collapseOnSelect expand="lg"  className={navbar ? 'navbar active' : 'navbar'}>
       <Navbar.Brand href="#home" style={{marginLeft:'20px'}} className='logoSize'><img style={{width:'50%', height:'50px'}} src={Logo} alt='forit'/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
