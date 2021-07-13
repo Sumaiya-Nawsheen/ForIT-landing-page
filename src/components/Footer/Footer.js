@@ -118,12 +118,12 @@ export default function Footer() {
   <div class="col-lg-3 col-md-3 col-sm-1 ml-lg-4">
 
   <div className="my-auto mb-lg-4">
-         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif', color:'white'}}><a href="#" style={{textDecoration:'none', color:'white'}}>New level of the game</a></p>
+         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif', color:'white'}}><a href="#home" style={{textDecoration:'none', color:'white'}}>New level of the game</a></p>
          <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif',color:'white'}}>11.11.2016</p>
          </div>
     
          <div className="my-auto">
-         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}><a href="#" style={{textDecoration:'none', color:'white'}}>Simple Watch Interfaces</a></p>
+         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}><a href="#home" style={{textDecoration:'none', color:'white'}}>Simple Watch Interfaces</a></p>
          </div>
          <div className="my-auto mb-lg-4">
          <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif',color:'white'}}>10.11.2016</p>
@@ -141,19 +141,19 @@ export default function Footer() {
   {/* 3rd */}
   <div class="col-lg-2 col-md-2 col-sm-1 ml-lg-5">
          <div className="my-auto mb-lg-4">
-         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif', color:'white'}}><a href="#" style={{textDecoration:'none', color:'white'}}>APP</a></p>
+         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif', color:'white'}}><a href="#home" style={{textDecoration:'none', color:'white'}}>APP</a></p>
          </div>
          <div className="my-auto mb-lg-4">
-         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}><a href="#" style={{textDecoration:'none', color:'white'}}>PRODUCT</a></p>
+         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}><a href="#home" style={{textDecoration:'none', color:'white'}}>PRODUCT</a></p>
          </div>
          <div className="my-auto mb-lg-4">
-         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}><a href="#" style={{textDecoration:'none', color:'white'}}>SAAS</a></p>
+         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}><a href="#home" style={{textDecoration:'none', color:'white'}}>SAAS</a></p>
          </div>
          <div className="my-auto mb-lg-4">
-         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}><a href="#" style={{textDecoration:'none', color:'white'}}>BLOG</a></p>
+         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}><a href="#home" style={{textDecoration:'none', color:'white'}}>BLOG</a></p>
          </div>
          <div className="my-auto mb-lg-4">
-         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}><a href="#" style={{textDecoration:'none', color:'white'}}> COMING SOON</a></p>
+         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}><a href="#home" style={{textDecoration:'none', color:'white'}}> COMING SOON</a></p>
          </div>
 
   </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Watch from '../../images/AppleWatch.png';
 import './SmartWatch.css';
 

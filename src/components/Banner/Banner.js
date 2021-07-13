@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Banner.css';
 import iphone from '../../images/iPhone@2x.png';
 import waves from '../../images/waves.png';
@@ -8,29 +8,16 @@ import ScrollMagic from 'scrollmagic';
 
 export default function Banner() {
 
-
-  // const [overlay, setOverlay] = useState(false);
-
-  // const changeBackground = () => {
-  //   if(window.scrollY>=100){
-  //     setOverlay(true);
-  //   }
-  //   else{
-  //     setOverlay(false);
-  //   };
-  // };
-  // window.addEventListener('scroll', changeBackground);
-
   var controller = new ScrollMagic.Controller();
 
-var scene1 = new ScrollMagic.Scene({
+ new ScrollMagic.Scene({
         triggerElement: '.wave'
     })
     .setClassToggle('.wave', 'moveUp')
 
 .addTo(controller);
 
-var scene2 = new ScrollMagic.Scene({
+ new ScrollMagic.Scene({
         triggerElement: '.banner'
     })
     .setClassToggle('.wave', 'moveDown')

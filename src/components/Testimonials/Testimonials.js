@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Testimonials.css';
 import user1 from '../../images/user1.png';
 import user2 from '../../images/user2.png';

@@ -1,9 +1,4 @@
 import React from 'react';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { Avatar } from "@material-ui/core";
-import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import Comments from '../../images/Comments.png';
 import Login from '../../images/Login.png';
 import Feed from '../../images/Feed.png';
@@ -14,23 +9,6 @@ import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.theme.default.min.css';
 
 
-const PreviousBtn = (props) => {
-  console.log(props);
-  const { className, onClick } = props;
-  return (
-    <div className={className} onClick={onClick}>
-      <ArrowBackIos/>
-    </div>
-  );
-};
-const NextBtn = (props) => {
-  const { className, onClick } = props;
-  return (
-    <div className={className} onClick={onClick}>
-      <ArrowForwardIos />
-    </div>
-  );
-};
 
 export default function BeautifulInterface() {
 
