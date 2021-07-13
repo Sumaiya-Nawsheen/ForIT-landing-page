@@ -129,7 +129,7 @@ export default function Footer() {
          <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif',color:'white'}}>10.11.2016</p>
          </div>
          <div className="my-auto">
-         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}><a href="#" style={{textDecoration:'none', color:'white'}}>Dashboard Interaction</a></p>
+         <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}><a href="#home" style={{textDecoration:'none', color:'white'}}>Dashboard Interaction</a></p>
          </div>
          <div className="my-auto">
          <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif',color:'white'}}>01.11.2016</p>
