@@ -7,10 +7,10 @@ export default function DownloadVersion() {
     return (
         <div>
                   <div className='h-lg-5000 h-sm-200'>
-            <div class="container overflow-hidden">
-  <div class="row gx-5 mt-5">
-    <div class="col my-auto">
-     <div class="p-3 ">
+            <div className="container overflow-hidden">
+  <div className="row gx-5 mt-5">
+    <div className="col my-auto">
+     <div className="p-3 ">
      <div>
          <h1 style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}>Download Your Version</h1>
          </div>
@@ -37,8 +37,8 @@ export default function DownloadVersion() {
 
 
     {/* phone view */}
-    <div class="col">
-      <div class="p-3 my-auto" style={{display:'flex', alignItem:'center', justifyContent:'center'}}>
+    <div className="col">
+      <div className="p-3 my-auto" style={{display:'flex', alignItem:'center', justifyContent:'center'}}>
       <img src={phone} alt='' style={{width:'100%'}}></img>
       </div>
     </div>

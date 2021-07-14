@@ -2,9 +2,9 @@ import React from 'react'
 import macbook from '../../images/macbook.png'
 export default function Dashboard() {
     return (
-        <div className='h-lg-200 h-sm-100 mb-3' style={{border:'1px solid white', backgroundColor:'rgb(74,100,108)'}}>
+        <div style={{backgroundColor:'rgb(74,100,108)'}}>
 
-  <div class="row gx-5 w-100 mt-5">
+  <div className="row gx-5 w-100 mt-5">
 
 {/* macbook view */}
 <div className="col-lg-6 col-md-7 col-sm-1 mr-lg-5 my-auto">
@@ -13,7 +13,7 @@ export default function Dashboard() {
 
 
 {/* dashboard content */}
-<div className="col-lg-4 col-md-4 col-sm-1 ml-lg-5 ml-sm-3 my-auto" style={{color:'#ffffff'}}>
+<div className="col-lg-4 col-md-4 col-sm-1 ml-5  my-auto" style={{color:'#ffffff'}}>
    
    <div>
    <h1 style={{color:'#ffffff',textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}>Web View with Dashboard</h1>

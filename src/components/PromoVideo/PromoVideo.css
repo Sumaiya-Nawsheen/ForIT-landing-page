@@ -1,32 +1,27 @@
 .wave2{
     background-image: url('../../images/download2.png');
     width: 100%;
-    height: 40em;
+    height: 42em;
     position: relative;
     background-repeat: no-repeat;
    background-size: 1400px 45em;
       
 }
 
-.heightFixing{
-    height: 45em;
-} 
 
   @media only screen and (max-width: 1030px) {
     .wave2{
-        height: 51em;
-        background-size: 1700px 51em;
+        height: 65em;
+        background-size: 1700px 65em;
     }
+    @media only screen and (max-width: 760px) {
+  
+      .wave2{
+          height: 67em;
+          background-size: 1700px 67em;
+      }
+      .imgResize{
+          width:18em;
+      }
+    } 
   }
-   @media only screen and (max-width: 760px) {
-    .heightFixing{
-        height: 20em;
-    }
-    .wave2{
-        height: 90em;
-        background-size: 1700px 90em;
-    }
-    .imgResize{
-        width:18em;
-    }
-  }  

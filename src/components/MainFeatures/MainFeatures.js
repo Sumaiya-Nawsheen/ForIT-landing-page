@@ -26,13 +26,11 @@ export default function MainFeatures() {
 
 
     return (
-        <div className='h-lg-100 h-sm-100'>
-
+        <div>
 <div className='parallax'>
+  {/* title & description */}
 
-{/* title & description */}
-
-<div className='h-lg-5156 h-sm-100'> 
+<div> 
 <div className="row mr-0 ml-0" style={{textAlign:'center',  marginTop:'100px'}}>
   <div className="col-md-6 offset-md-3"><h1 style={titleStyle}>Main Features</h1></div>
 </div>
@@ -41,17 +39,15 @@ export default function MainFeatures() {
   </div>
 </div>
 
-{/* features & image */}
-
-            <div style={{marginTop:'100px'}}>
-  <div className="row ml-1">
+<div style={{marginTop:'100px'}}>
+  <div className="row ml-0 mr-0">
 
 {/* 1st column */}
-    <div className="col-lg-4 col-md-4 col-sm-12 ml-sm-1 ml-lg-3" >
-    
-  <div className="row row-cols-1 row-cols-lg-1">
-    <div className="col">
-   {/* card 1 */}
+    <div className="col-lg-4 col-md-4 col-sm-12 ml-sm-1 ml-lg-3">
+    <div className="row row-cols-1 row-cols-lg-1">
+
+{/* card 1 */}
+<div className="col">
     <div className="card mb-3" style={{maxWidth: '540px', border:'transparent',  background:'rgba(255, 255, 255, 0.0)'}}>
   <div className="row g-0">
    
@@ -67,9 +63,9 @@ export default function MainFeatures() {
   </div>
 </div>
     </div>
-
-    <div className="col">
-        {/* card 2 */}
+    
+      {/* card 2 */}
+    <div className="col">  
     <div className="card mb-3" style={{maxWidth: '540px', border:'transparent', background:'rgba(255, 255, 255, 0.0)'}}>
   <div className="row g-0">
     
@@ -86,8 +82,8 @@ export default function MainFeatures() {
 </div>
     </div>
 
+    {/* card 3 */}
     <div className="col">
-        {/* card 3 */}
     <div className="card mb-3" style={{maxWidth: '540px',border:'transparent',background:'rgba(255, 255, 255, 0.0)'}}>
   <div className="row g-0">
     
@@ -103,24 +99,22 @@ export default function MainFeatures() {
   </div>
 </div>
     </div>
-  </div>
- </div>
-
+      </div>
+      </div>
+ 
 
 {/* 2nd column */}
-    <div className="col-lg-3 col-md-3 col-sm-12 mobileDisplay" >
+<div className="col-lg-3 col-md-3 col-sm-12 mobileDisplay">
       <img style={{width:'100%'}} src={iphone2} alt=""></img>
     </div>
 
-
-
 {/* 3rd column */}
-    <div className="col-lg-4 col-md-4 col-sm-12">
-    <div className="container">
-  <div className="row row-cols-1 row-cols-lg-1">
-    <div className="col">
-      {/* card 1 */}
-    <div className="card mb-3" style={{maxWidth: '540px', border:'transparent',background:'rgba(255, 255, 255, 0.0)'}}>
+<div className="col-lg-4 col-md-4 col-sm-12 ml-lg-3 ml-md-1 ml-sm-0">
+<div className="row row-cols-1 row-cols-lg-1">
+
+{/* card 1 */}
+<div className="col">
+<div className="card mb-3" style={{maxWidth: '540px', border:'transparent'}}>
   <div className="row g-0">
     <div className="col-md-4" style={iconStyle}>
       <img src={icon4} className="img-fluid rounded-start" alt="..."/>
@@ -134,9 +128,9 @@ export default function MainFeatures() {
   </div>
 </div>
     </div>
-
-    <div class="col">
+    
       {/* card 2 */}
+    <div className="col">  
     <div className="card mb-3" style={{maxWidth: '540px', border:'transparent',background:'rgba(255, 255, 255, 0.0)'}}>
   <div className="row g-0">
     <div className="col-md-4" style={iconStyle}>
@@ -150,10 +144,10 @@ export default function MainFeatures() {
     </div>
   </div>
 </div>
-    </div>
+</div>
 
-    <div class="col">
-      {/* card 3 */}
+    {/* card 3 */}
+    <div className="col">
     <div className="card mb-3" style={{maxWidth: '540px',border:'transparent', background:'rgba(255, 255, 255, 0.0)'}}>
   <div className="row g-0">
     <div className="col-md-4" style={iconStyle}>
@@ -168,13 +162,13 @@ export default function MainFeatures() {
   </div>
 </div>
     </div>
-  </div>
-</div>
-    </div>
-  </div>
+
 </div>
 </div>
-</div>
+        </div>
+        </div>
+        </div>
+        </div>
         </div>
     )
 }

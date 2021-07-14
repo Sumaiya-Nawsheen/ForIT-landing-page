@@ -30,9 +30,9 @@ export default function BeautifulInterface() {
 
 {/* title & description */}
 {/* left column */}
-        <div class="row mr-0 ml-0 mb-5 mt-5">
-        <div class="col-lg-4 col-md-4 col-sm-1 ml-lg-4">
-        <div class="p-3">
+        <div className="row mr-0 ml-0 mb-5 mt-5">
+        <div className="col-lg-4 col-md-4 col-sm-1 ml-lg-4">
+        <div className="p-3">
     <h1 style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif', fontSize:'33px'}}>Perfect look screens</h1>
     <div style={{marginTop:'1.5em'}}>
     <p>ForIT features flexible layouts and themes to customize your content’s unique look. Credibly innovate granular internal or organic sources whereas high standard.</p>
@@ -41,25 +41,25 @@ export default function BeautifulInterface() {
         </div>
 
         {/* right column */}
-  <div class="col-lg-7 col-md-6 col-sm-1 ml-lg-5">
+  <div className="col-lg-7 col-md-6 col-sm-1 ml-lg-5">
 
  {/* carousel */}
 
  <OwlCarousel className='owl-theme' items='4' dots loop>
-<div class="item"  style={{ display: "flex", justifyContent: "center" }}>
-    <img  class="w-75" src={Login} alt='login'/>
+<div className="item"  style={{ display: "flex", justifyContent: "center" }}>
+    <img  className="w-75" src={Login} alt='login'/>
   </div>
-  <div class="item" style={{ display: "flex", justifyContent: "center" }}>
-  <img  class="w-75" src={Feed} alt='feed'/>
+  <div className="item" style={{ display: "flex", justifyContent: "center" }}>
+  <img  className="w-75" src={Feed} alt='feed'/>
   </div>
-  <div class="item" style={{ display: "flex", justifyContent: "center" }}>
-  <img  class="w-75" src={Stats} alt='stats'/>
+  <div className="item" style={{ display: "flex", justifyContent: "center" }}>
+  <img  className="w-75" src={Stats} alt='stats'/>
   </div>
-  <div class="item" style={{ display: "flex", justifyContent: "center" }}>
-  <img  class="w-75" src={Comments} alt='comments'/>
+  <div className="item" style={{ display: "flex", justifyContent: "center" }}>
+  <img  className="w-75" src={Comments} alt='comments'/>
   </div>
-  <div class="item" style={{ display: "flex", justifyContent: "center" }}>
-  <img  class="w-75" src={Settings} alt='comments'/>
+  <div className="item" style={{ display: "flex", justifyContent: "center" }}>
+  <img  className="w-75" src={Settings} alt='comments'/>
   </div>
 </OwlCarousel> 
 </div>

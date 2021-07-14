@@ -76,8 +76,8 @@ export default function Footer() {
       <div className="p-3">
      
   <button type="button" className="btn btn-light btn-lg" style={{borderRadius:'30px', fontSize:'20px', textAlign:'center'}}>
-  <div class="row">
-    <div class="col">
+  <div className="row">
+    <div className="col">
     <form>
   <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Enter email" style={{border:'transparent'}}/>
   </form>
@@ -97,8 +97,8 @@ export default function Footer() {
 {/* footer */}
 <div className='h-lg-300 h-sm-2000' style={{backgroundColor:'rgb(74,100,108)'}}>
 
-<div class="container">
-<div class="row align-items-center">
+<div className="container">
+<div className="row align-items-center">
 
   {/* 1st */}
   <div className="col-lg-3 col-md-2 col-sm-1 mb-5">
@@ -112,10 +112,10 @@ export default function Footer() {
 </div>
   </div>
 
-  <div class="vl ml-lg-3"></div>
+  <div className="vl ml-lg-3"></div>
 
   {/* 2nd */}
-  <div class="col-lg-3 col-md-3 col-sm-1 ml-lg-4">
+  <div className="col-lg-3 col-md-3 col-sm-1 ml-lg-4">
 
   <div className="my-auto mb-lg-4">
          <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif', color:'white'}}><a href="#home" style={{textDecoration:'none', color:'white'}}>New level of the game</a></p>
@@ -136,10 +136,10 @@ export default function Footer() {
          </div>
 
   </div>
-  <div class="vl ml-lg-3"></div>
+  <div className="vl ml-lg-3"></div>
 
   {/* 3rd */}
-  <div class="col-lg-2 col-md-2 col-sm-1 ml-lg-5">
+  <div className="col-lg-2 col-md-2 col-sm-1 ml-lg-5">
          <div className="my-auto mb-lg-4">
          <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif', color:'white'}}><a href="#home" style={{textDecoration:'none', color:'white'}}>APP</a></p>
          </div>
@@ -157,10 +157,10 @@ export default function Footer() {
          </div>
 
   </div>
-  <div class="vl ml-lg-3"></div>
+  <div className="vl ml-lg-3"></div>
 
   {/* 4th */}
-  <div class="col-lg-2 col-md-2 col-sm-1 ml-lg-5">
+  <div className="col-lg-2 col-md-2 col-sm-1 ml-lg-5">
         <div className="my-auto mb-lg-4">
          <p style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif', color:'white'}}>DOWNLOAD APP</p>
          </div>
