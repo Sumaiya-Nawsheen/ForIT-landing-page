@@ -11,16 +11,16 @@ export default function Banner() {
   var controller = new ScrollMagic.Controller();
 
  new ScrollMagic.Scene({
-        triggerElement: 'wave'
+        triggerElement: '.wave'
     })
-    .setClassToggle('wave', 'moveUp')
+    .setClassToggle('.wave', '.moveUp')
 
 .addTo(controller);
 
  new ScrollMagic.Scene({
-        triggerElement: 'banner'
+        triggerElement: '.banner'
     })
-    .setClassToggle('wave', 'moveDown')
+    .setClassToggle('.wave', '.moveDown')
 
 
 .addTo(controller);

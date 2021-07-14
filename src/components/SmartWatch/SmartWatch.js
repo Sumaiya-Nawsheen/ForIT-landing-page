@@ -25,7 +25,7 @@ export default function SmartWatch() {
     </div>
     <div className="col">
       <div className="p-3 my-auto" style={{display:'flex', alignItem:'center', justifyContent:'center'}}>
-      <img   src={Watch} alt=''></img>
+      <img  className='vert-move' src={Watch} alt=''></img>
       </div>
     </div>
   </div>

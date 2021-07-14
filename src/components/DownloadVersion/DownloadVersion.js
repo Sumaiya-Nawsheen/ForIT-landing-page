@@ -39,7 +39,7 @@ export default function DownloadVersion() {
     {/* phone view */}
     <div className="col">
       <div className="p-3 my-auto" style={{display:'flex', alignItem:'center', justifyContent:'center'}}>
-      <img src={phone} alt='' style={{width:'100%'}}></img>
+      <img className='vert-move' src={phone} alt='' style={{width:'100%'}}></img>
       </div>
     </div>
   </div>

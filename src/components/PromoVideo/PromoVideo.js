@@ -16,7 +16,7 @@ export default function PromoVideo() {
 
     <div className="col mt-5">
   <div className="p-3 my-auto" style={{display:'flex', alignItem:'center', justifyContent:'center'}}>
-  <img className='mt-5 imgResize w-77' src={playvideo} alt=''></img>
+  <img className='mt-5 imgResize w-77 vert-move' src={playvideo} alt=''></img>
   </div>
 </div>
 

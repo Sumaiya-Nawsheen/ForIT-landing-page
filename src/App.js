@@ -27,7 +27,7 @@ function App() {
      <Testimonials/>
      <Pricing/>
      <div class="" style={{}}>
-      <img src={wave} alt='' style={{width:'100%'}}></img>
+      <img className='vert-move' src={wave} alt='' style={{width:'100%'}}></img>
       </div>
      <DownloadVersion/>
      <Footer/>
