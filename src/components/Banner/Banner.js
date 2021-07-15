@@ -19,7 +19,7 @@ const ClassToggleStyled = styled.div`
     transition: transform 0.5s;
     
     position: relative;
-    top: -330px;
+    top: -290px;
 
     &.yellow {
       transform: translateY(-40px);
