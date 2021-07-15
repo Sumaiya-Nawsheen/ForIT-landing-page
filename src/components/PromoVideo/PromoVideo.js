@@ -2,6 +2,33 @@ import React from 'react';
 import './PromoVideo.css'
 import playvideo from '../../images/Browser.png';
 import pin from '../../images/pin.png';
+import styled from 'styled-components';
+import { Controller, Scene } from 'react-scrollmagic';
+
+
+
+const ClassToggleStyled = styled.div`
+.test {
+  // transition: up 0.01s ease-out;
+  width: 100%;
+  height: 100px;
+  margin: 0 !important;
+  transform: translateY(50px);
+  transition: transform 0.5s;
+  
+  &.yellow {
+  
+    transform: translateY(-30px);
+  transition: transform 0.5s;
+}
+  }
+}
+.zap {
+  transform: translateY(-30px);
+  transition: transform 0.5s;
+}
+}
+`;
 
 
 export default function PromoVideo() {
@@ -16,9 +43,24 @@ export default function PromoVideo() {
 
     <div className="col mt-5">
   <div className="p-3 my-auto" style={{display:'flex', alignItem:'center', justifyContent:'center'}}>
-  <img className='mt-5 imgResize w-77 vert-move' src={playvideo} alt=''></img>
+  <ClassToggleStyled>
+    <div id="trigger" />
+    <Controller>
+      <Scene duration={200} classToggle="zap" triggerElement="#trigger" indicators={false}>
+        {(progress, event) => (
+          <div className="test"><img className='mt-5 imgResize w-77' src={playvideo} alt=''></img></div>
+        )}
+      </Scene>
+      <Scene classToggle={['.test', 'yellow']} reverse={true} indicators={false}>
+        <div></div>
+      </Scene>
+    </Controller>
+  </ClassToggleStyled>
   </div>
 </div>
+
+
+
 
 {/* content */}
 <div className="col mt-lg-5 mt-sm-0">

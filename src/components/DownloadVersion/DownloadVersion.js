@@ -2,6 +2,37 @@ import React from 'react';
 import phone from '../../images/doublePhone.png';
 import AppleStoreButton from '../../images/AppleStoreButton.png';
 import GooglePlayBytton from '../../images/GooglePlayBytton.png';
+import styled from 'styled-components';
+import { Controller, Scene } from 'react-scrollmagic';
+
+
+
+const ClassToggleStyled = styled.div`
+.section {
+  height: 100vh;
+}
+.test {
+  transition: up 0.01s ease-out;
+  width: 100%;
+  height: 100px;
+  margin: 0 !important;
+  transform: translateY(50px);
+  transition: transform 0.5s;
+  
+  &.yellow {
+  
+    transform: translateY(-30px);
+  transition: transform 0.5s;
+}
+  }
+}
+.zap {
+  transform: translateY(-30px);
+  transition: transform 0.5s;
+}
+}
+`;
+
 
 export default function DownloadVersion() {
     return (
@@ -26,6 +57,7 @@ export default function DownloadVersion() {
     </div>
     <div className="col">
       <div className="p-3">
+  
           <img style={{width:'100%'}} src={GooglePlayBytton} alt='GooglePlayBytton'></img>
       </div>
     </div>
@@ -39,7 +71,22 @@ export default function DownloadVersion() {
     {/* phone view */}
     <div className="col">
       <div className="p-3 my-auto" style={{display:'flex', alignItem:'center', justifyContent:'center'}}>
-      <img className='vert-move' src={phone} alt='' style={{width:'100%'}}></img>
+      <ClassToggleStyled>
+      <div className="section">
+    <div id="trigger" />
+    <Controller>
+      <Scene duration={200} classToggle="zap" triggerElement="#trigger" indicators={false}>
+        {(progress, event) => (
+          <div className="test">  <img src={phone} alt='' style={{width:'100%'}}></img></div>
+        )}
+      </Scene>
+      <Scene classToggle={['.test', 'yellow']} reverse={true} indicators={false}>
+        <div></div>
+      </Scene>
+    </Controller>
+    </div>
+  </ClassToggleStyled>
+     
       </div>
     </div>
   </div>

@@ -1,6 +1,33 @@
 import React from 'react';
 import Watch from '../../images/AppleWatch.png';
 import './SmartWatch.css';
+import styled from 'styled-components';
+import { Controller, Scene } from 'react-scrollmagic';
+
+
+
+const ClassToggleStyled = styled.div`
+.test {
+  transition: up 0.01s ease-out;
+  width: 100%;
+  height: 100px;
+  margin: 0 !important;
+  transform: translateY(50px);
+  transition: transform 0.5s;
+  
+  &.yellow {
+  
+    transform: translateY(-30px);
+  transition: transform 0.5s;
+}
+  }
+}
+.zap {
+  transform: translateY(-30px);
+  transition: transform 0.5s;
+}
+}
+`;
 
 
 export default function SmartWatch() {
@@ -23,9 +50,23 @@ export default function SmartWatch() {
       </div>
      </div>
     </div>
+
+    {/* image */}
     <div className="col">
       <div className="p-3 my-auto" style={{display:'flex', alignItem:'center', justifyContent:'center'}}>
-      <img  className='vert-move' src={Watch} alt=''></img>
+      <ClassToggleStyled>
+    <div id="trigger" />
+    <Controller>
+      <Scene duration={200} classToggle="zap" triggerElement="#trigger" indicators={false}>
+        {(progress, event) => (
+          <div className="test"> <img src={Watch} alt=''></img></div>
+        )}
+      </Scene>
+      <Scene classToggle={['.test', 'yellow']} reverse={true} indicators={false}>
+        <div></div>
+      </Scene>
+    </Controller>
+  </ClassToggleStyled>
       </div>
     </div>
   </div>
