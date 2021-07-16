@@ -10,6 +10,7 @@ const ClassToggleStyled = styled.div`
 .section {
   height: 100vh;
 }
+
   .test {
 	  transition: bottom 0.1s ease-out;
 	  width: 100%;
@@ -30,25 +31,44 @@ const ClassToggleStyled = styled.div`
     transform: translateY(-30px);
   transition: transform 0.5s;
   }
+
+  @media only screen and (max-width: 1024px) {
+    .test{
+        top: -160px;
+    }
+    .banner{
+        padding: 0px;
+    }
+    @media only screen and (max-width: 760px){
+      .test {
+            display: none;
+         }
+         .banner{
+            padding: 0px;
+            height: 75em;
+        }
+    }
+  }
 `;
+
 
 export default function Banner() {
 
     return (
-<div style={{height:'135vh'}}>
+<div className='divStyle' style={{ border:'1px solid black'}}>
 <ClassToggleStyled>
         <div className="section">
       <div className="banner">
       <div className="container overflow-hidden" >
    
-   <div className="row gx-5 ml-sm-1 ml-md-1 ml-lg-8">
+   <div className="row gx-5 ml-sm-1  ml-lg-8">
      {/* mobile view */}
-   <div className="col-lg-5 col-sm-12">
+   <div className="col-lg-5 col-md-5 col-sm-12">
       <div className="p-2"><img  style={{width:'90%'}} src={iphone} alt=''></img></div>
      </div>
   
      {/* description */}
-     <div className="col-lg-6 col-sm-12" style={{color:'#ffffff',marginTop:'30px'}}>
+     <div className="col-lg-6 col-md-6 col-sm-12" style={{color:'#ffffff',marginTop:'30px'}}>
        <div className="p-3">
        <h1 className="display-4" style={{color:'#ffffff',textAlign:'left', fontFamily: 'Secular One, sans-serif', display:'flex', justifyContent:'center', alignItems:'center'}}>Best Way to promote service</h1>
      <div>

@@ -53,7 +53,7 @@ export default function SmartWatch() {
 
     {/* image */}
     <div className="col">
-      <div className="p-3 my-auto" style={{display:'flex', alignItem:'center', justifyContent:'center'}}>
+      <div className="p-3 my-auto watchHeight" style={{display:'flex', alignItem:'center', justifyContent:'center'}}>
       <ClassToggleStyled>
     <div id="trigger" />
     <Controller>

@@ -8,11 +8,21 @@
       
 }
 
+.promoMargin{
+    margin-top: 5em;
+}
+
 
   @media only screen and (max-width: 1030px) {
     .wave2{
         height: 65em;
         background-size: 1700px 65em;
+    }
+    .imgResize{
+        width:25em;
+    }
+    .promoMargin{
+        margin-top: 9em;
     }
     @media only screen and (max-width: 760px) {
   
@@ -23,18 +33,10 @@
       .imgResize{
           width:18em;
       }
+      .promoMargin{
+          margin-top: 8em;
+      }
     } 
   }
 
-img.vert-move {
-    -webkit-animation: mover 2s infinite  alternate;
-    animation: mover 2s infinite  alternate;
-}
-@-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
-}
-@keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-15px); }
-}
+

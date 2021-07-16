@@ -8,6 +8,11 @@
     padding: 90px;
 }
 
+
+.divStyle{
+    height:135vh;
+  }
+
 .wave img {
     position: relative;
     top: -280px;
@@ -25,19 +30,8 @@
     transition: transform 0.5s;
 }
 
-@media only screen and (max-width: 1024px) {
-    .wave img{
-        top: -160px;
-    }
-    .banner{
-        padding: 70px;
-    }
     @media only screen and (max-width: 760px){
-        .wave {
-            display: none;
-         }
-         .banner{
-            padding: 0px;
-        }
+        .divStyle{
+            height:75em;
+   }
     }
-  }

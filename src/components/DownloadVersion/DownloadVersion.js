@@ -40,7 +40,7 @@ export default function DownloadVersion() {
                   <div className='h-lg-5000 h-sm-200'>
             <div className="container overflow-hidden">
   <div className="row gx-5 mt-5">
-    <div className="col my-auto">
+    <div className="col-sm-1 col-lg-6 col-md-6 my-auto">
      <div className="p-3 ">
      <div>
          <h1 style={{textAlign:'left', fontFamily: 'Noto Serif JP, serif'}}>Download Your Version</h1>
@@ -50,12 +50,12 @@ export default function DownloadVersion() {
          </div>
             <div className="container">
   <div className="row row-cols-1 row-cols-md-2  row-cols-lg-2 g-2 g-lg-3">
-    <div className="col">
+    <div className="col-sm-1">
       <div className="p-3">
       <img style={{width:'100%'}} src={AppleStoreButton} alt='AppleStoreButton'></img>
       </div>
     </div>
-    <div className="col">
+    <div className="col-sm-1 col-lg-6 col-md-6">
       <div className="p-3">
   
           <img style={{width:'100%'}} src={GooglePlayBytton} alt='GooglePlayBytton'></img>
